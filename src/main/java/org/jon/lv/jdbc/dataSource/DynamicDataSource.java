@@ -14,10 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Package com.shfc.jdbc.dataSource.DynamicDataSource
  * @Description: 动态数据源实现读写分离
- * @Company:上海房产
- * @Copyright: Copyright (c) 2016
  * Author lv bin
  * @date 2016/11/4 10:13
  * version V1.0.0

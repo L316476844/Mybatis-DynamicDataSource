@@ -5,9 +5,7 @@ import org.jon.lv.jdbc.enums.DynamicDataSourceGlobal;
 
 import javax.sql.DataSource;
 /**
- * @Package com.shfc.jdbc.strategy.AbstractStrategy
  * @Description: 负载均衡策略
- * @Company:上海房产
  * @Copyright: Copyright (c) 2016
  * Author lv bin
  * @date 2016/11/4 17:46

@@ -7,10 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @Package com.shfc.manager.RealtorAdminManager
- * @Description: TODO
- * @Company:上海房产
- * @Copyright: Copyright (c) 2016
  * Author lv bin
  * @date 2016/11/4 13:58
  * version V1.0.0

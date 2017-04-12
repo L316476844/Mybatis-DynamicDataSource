@@ -20,10 +20,7 @@ import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @Package com.shfc.jdbc.plugin.DynamicPlugin
  * @Description: 动态数据源插件
- * @Company:上海房产
- * @Copyright: Copyright (c) 2016
  * Author lv bin
  * @date 2016/11/4 10:28
  * version V1.0.0

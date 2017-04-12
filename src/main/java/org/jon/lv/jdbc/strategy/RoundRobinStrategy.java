@@ -10,9 +10,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @Description: 轮询策略---随机轮询
- * @Package com.shfc.jdbc.strategy.RoundRobinStrategy
- * @Company:上海房产
- * @Copyright: Copyright (c) 2016
  * Author lv bin
  * @date 2016/11/4 17:50
  * version V1.0.0
