@@ -96,6 +96,10 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
         this.slavesDataSource = slavesDataSource;
     }
 
+    public void setReadDataSource(DataSource readDataSource){
+        this.slavesDataSource.add(readDataSource);
+    }
+
     public Class<? extends Strategy> getStrategyClass() {
         return strategyClass;
     }
