@@ -8,10 +8,7 @@ import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 import javax.sql.DataSource;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Description: 动态数据源实现读写分离
@@ -22,7 +19,7 @@ import java.util.Map;
 public class DynamicDataSource extends AbstractRoutingDataSource {
 
     private DataSource masterDataSource; //写数据源
-    private List<DataSource> slavesDataSource; //读数据源
+    private List<DataSource> slavesDataSource = new ArrayList<>(); //读数据源
     private Class<? extends Strategy> strategyClass = RoundRobinStrategy.class; //获取数据源的策略
     private Strategy strategy; //策略
 
