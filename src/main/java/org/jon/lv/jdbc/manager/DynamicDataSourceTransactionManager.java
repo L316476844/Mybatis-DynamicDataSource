@@ -5,6 +5,8 @@ import org.jon.lv.jdbc.enums.DynamicDataSourceGlobal;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.TransactionDefinition;
 
+import javax.sql.DataSource;
+
 /**
  * @Description: 事务处理
  * Author lv bin
@@ -12,6 +14,10 @@ import org.springframework.transaction.TransactionDefinition;
  * version V1.0.0
  */
 public class DynamicDataSourceTransactionManager extends DataSourceTransactionManager {
+
+    public DynamicDataSourceTransactionManager(DataSource dataSource){
+        super.setDataSource(dataSource);
+    }
 
     /**
      * 只读事务到读库，读写事务到写库
